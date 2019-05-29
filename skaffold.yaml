@@ -2,4 +2,4 @@ apiVersion: skaffold/v1beta7
 kind: Config
 build:
   artifacts:
-  - image: registry.dev.noe.local/cicd/jenkins-slave-base-centos7
+  - image: harbor.apps.dev.noe.local/jenkins/slave-base-centos7
